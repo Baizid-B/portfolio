@@ -1,0 +1,8 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+@font-face {
+        font-family: open sens;
+        src: url("../Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
