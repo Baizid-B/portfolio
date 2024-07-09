@@ -10,6 +10,7 @@
         background-image: url("../images/developer.png"),url("../images/header_bg.png");
         background-repeat: no-repeat;
         background-position: top left,bottom right;
+        margin-left: 23px;
 }
 header{
         margin-top: 50px;
@@ -75,26 +76,65 @@ nav ul{
 .hero-tittle-1{
         color: rgb(71, 71, 71);
         font-family: Open;
-        font-size: 42px;
+        font-size: 45px;
         font-weight: 600;
         line-height: 61px;
+        margin-bottom: 5px;
 }
 .hero-tittle-2{
         color: rgb(24, 24, 24);
         font-family: Open;
-        font-size: 66px;
+        font-size: 70px;
         font-weight: 700;
         line-height: 116px;
         letter-spacing: 0%;
+        margin-bottom: 20px;
 }
 .hero-description{
         color: rgb(117, 117, 117);
         font-family: Open;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 30px;
         letter-spacing: 0%;
+        margin-bottom: 30px;
 }
 .hero-img{
         margin-bottom: -3.5px;
+}
+.primary-btn-2{
+        cursor: pointer;
+        padding: 10px 20px;
+        font-family: Open;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        border-radius: 5px;
+        margin-left: 30px;
+        color: rgb(253, 110, 10);
+        border-color: rgb(253, 110, 10);
+        background: transparent;
+}
+
+/* About-main */
+#About-main{
+        max-width: 1140px;
+        margin: 0px auto;
+
+}
+.about-content{
+        border-radius: 10px;
+        padding: 130px 150px;
+        text-align: center;
+        font-family: open;
+        background-color: rgb(255, 248, 243);
+        margin-top: 130px;
+}
+.about-items{
+        display: flex;
+        text-align: center;
+        gap:20px;
+}
+.item-description{
+        font-weight: 600;
 }
