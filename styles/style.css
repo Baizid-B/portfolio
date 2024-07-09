@@ -7,7 +7,9 @@
         src: url("../Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 #hero{
-        
+        background-image: url("../images/developer.png"),url("../images/header_bg.png");
+        background-repeat: no-repeat;
+        background-position: top left,bottom right;
 }
 header{
         margin-top: 50px;
@@ -65,10 +67,34 @@ nav ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: 0px 38px 0px 200px;
 }
-
-
-
-.hero-img img{
-        width: 550px;
+.hero-text{
+        max-width: 540px;
+}
+.hero-tittle-1{
+        color: rgb(71, 71, 71);
+        font-family: Open;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 61px;
+}
+.hero-tittle-2{
+        color: rgb(24, 24, 24);
+        font-family: Open;
+        font-size: 66px;
+        font-weight: 700;
+        line-height: 116px;
+        letter-spacing: 0%;
+}
+.hero-description{
+        color: rgb(117, 117, 117);
+        font-family: Open;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+}
+.hero-img{
+        margin-bottom: -3.5px;
 }
